@@ -1,3 +1,18 @@
+# 1.0.0 (2026-11-02)
+
+
+## Features
+
+
+* migrate the project from private gitlab to github ([2698ea3](https://github.com/amine2233/swift-networking-middle-openapi-runtime/commit/2698ea3f19013cf24885ceb6b8dc3b40167f0d31))
+
+
+## Bug Fixes
+
+
+* replace networking-middle with swift-networking-middle and update swift-http-types ([182e284](https://github.com/amine2233/swift-networking-middle-openapi-runtime/commit/182e284ad488aa8c649718dde6fbf2145b7fe5f6))
+
+
 # [0.1.2](https://gitlab.com/intech-consulting-app/swift-packages/networking-middle-openapi-runtime/compare/0.1.1...0.1.2) (2026-04-11)
 
 
