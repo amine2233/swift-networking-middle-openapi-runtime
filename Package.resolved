@@ -1,15 +1,6 @@
 {
-  "originHash" : "c54e1756d725871e43e264d7e6afbcc19e3b94436190dfa94ea709bcd8c25447",
+  "originHash" : "04c743b2efff2399c0cf8dc89b0f7b2e9f34f0419a7b88f1c662ec5cd9db78af",
   "pins" : [
-    {
-      "identity" : "networking-middle",
-      "kind" : "remoteSourceControl",
-      "location" : "https://gitlab.com/intech-consulting-app/swift-packages/networking-middle",
-      "state" : {
-        "revision" : "c82c960f41c2e9284449c90c1fb5eaf7c4e68b9a",
-        "version" : "1.0.0"
-      }
-    },
     {
       "identity" : "swift-http-types",
       "kind" : "remoteSourceControl",
@@ -17,6 +8,15 @@
       "state" : {
         "revision" : "45eb0224913ea070ec4fba17291b9e7ecf4749ca",
         "version" : "1.5.1"
+      }
+    },
+    {
+      "identity" : "swift-networking-middle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/amine2233/swift-networking-middle.git",
+      "state" : {
+        "revision" : "d0ab86c0e721e2cfba6c7d1b77c7a5dad3efda83",
+        "version" : "1.0.0"
       }
     },
     {

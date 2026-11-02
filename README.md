@@ -9,13 +9,13 @@ Add this package to your Package.swift as dependency and to your target.
 ```swift
 dependencies: [
     .package(
-        url: "https://gitlab.com/intech-consulting-app/swift-packages/networking-middle-openapi-runtime.git",
+        url: "https://github.com/amine2233/swift-networking-middle-openapi-runtime.git",
         from: "1.0.0"
     )
 ],
 targets: [
     .target(name: "App", dependencies: [
-        .product(name: "NetworkingMiddleOpenApiRuntime", package: "networking-middle-openapi-runtime"),
+        .product(name: "NetworkingMiddleOpenApiRuntime", package: "swift-networking-middle-openapi-runtime"),
     ])
 ]
 ```

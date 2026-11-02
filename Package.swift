@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/amine2233/swift-networking-middle",
+            url: "https://github.com/amine2233/swift-networking-middle.git",
             from: "1.0.0"
         ),
         .package(url: "https://github.com/apple/swift-openapi-runtime", from: "1.0.0"),
@@ -28,7 +28,7 @@ let package = Package(
         .target(
             name: "NetworkingMiddleOpenApiRuntime",
             dependencies: [
-                .product(name: "NetworkingMiddle", package: "networking-middle"),
+                .product(name: "NetworkingMiddle", package: "swift-networking-middle"),
                 .product(
                     name: "OpenAPIRuntime",
                     package: "swift-openapi-runtime"
